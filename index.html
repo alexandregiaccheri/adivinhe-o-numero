@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinhe o Número</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <div class="cab-top">
+        <button class="botao reiniciar">Jogar Novamente</button>
+        <h4 class="titulo">(entre 1 e 20)</h4>
+      </div>
+      <br />
+      <h1 class="titulo">Adivinhe o Número</h1>
+    </div>
+    <div class="display">
+      <hr class="linha-hor" />
+      <div class="tentativa">
+        <h1 class="numero">?</h1>
+      </div>
+      <hr class="linha-hor" />
+    </div>
+    <br />
+    <div class="jogo">
+      <div class="entrada">
+        <input type="number" min="1" max="20" />
+        <button class="botao confirmar">Confirmar</button>
+      </div>
+      <div class="saida">
+        <p class="texto resposta">🎯 Escolha um número...</p>
+        <br />
+        <div class="line">
+          <p class="texto">🏆 High-Score:</p>
+          <p class="hscore">0</p>
+        </div>
+        <div class="line">
+          <p class="texto">💎 Score:</p>
+          <p class="score">20</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
